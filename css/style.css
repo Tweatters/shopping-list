@@ -1,0 +1,57 @@
+*
+ * Font Sizing Emmet 1rem = 10px
+ */
+html {font-size: 62.5%;} / sets global font size to 10px on desktop browsers /
+h1 {font-size:3.2rem}
+h2 {font-size:2.4rem}
+h3 {font-size:1.87167rem}
+h4 {font-size:1.6rem}
+h5 {font-size:1.32833rem}
+h6 {font-size:1.07167rem}
+input, select, th, td {font-size:1rem}
+
+/**
+start of custome styles
+**/ 
+body {
+	background-color: #100F29;
+}
+.container {
+	text-align: center;
+	font-family: 'Quattrocento', serif;
+ 	color: #C3DED2;
+}
+
+h1 {
+	font-size: 
+}
+
+.theList {
+	margin: 0 auto;
+	width: 20rem;
+}
+
+.theList li {
+	text-align: left;
+	font-size: 1.5rem;
+}
+
+li {
+	list-style: none;
+}
+
+input[type=checkbox]:checked + label {
+	text-decoration: line-through
+}
+
+.trash {
+	vertical-align: middle;
+}
+
+#checkBox {
+	margin-right: 2rem;
+}
+
+#deleteItem {
+	margin-left: 2rem;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Shopping List</title>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href='https://fonts.googleapis.com/css?family=Fanwood+Text' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Quattrocento:400,700' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<div class="container">
+		<h1>Shopping List</h1>
+		<form id="input">
+			<input type="text" id="inputBox" value= "" placeholder="enter item here">
+			<button type="submit" id="addItem">Add Item</button>
+		</form>
+		<div class="theList">
+			<ul>
+				<li class="activeItem">
+					<input id="checkBox" type="checkbox" name="checkBox"><label for="checkBox">balls</label><img src="images/trash16.png" id="deleteItem">
+			</ul>
+		</div>
+	</div>
+
+	
+	<script src="http://code.jquery.com/jquery.min.js"></script>
+	<script src="js/shopping-list.js"></script>
+</body>
+</html>
